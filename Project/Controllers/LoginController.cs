@@ -23,7 +23,6 @@ namespace Project.Controllers
         [HttpPost]
         public IActionResult Index(UserModel userModel)
         {
-            Session["asd"] = "asd";
             using (var client = new HttpClient())
             {
 
